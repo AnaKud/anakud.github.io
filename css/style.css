@@ -272,7 +272,7 @@ body._touch .menu_list > li._active .menu_arrow {
     font-weight: 600;
     line-height: 40 / 20 * 100%;
     justify-content: center;
-    color: #000;
+    color: rgb(33, 33, 33);
     transition: background-color 0.3s ease 0s;
   /*  @media (min-width: 992px){
         &:hover {
@@ -357,10 +357,13 @@ body._touch .menu_list > li._active .menu_arrow {
     border-radius: 50%;    
 }
 
-
+.img_border{
+    border-radius: 4px; 
+}
 
 .hello_text {
     padding: 0px 0px 15px 0px;
+    line-height: 150%;
 }
 
 .apps_icon {
@@ -622,9 +625,10 @@ body._touch .menu_list > li._active .menu_arrow {
     height: 100%;
     border-radius: 4px;
     box-shadow: 0px 6px 8px rgb(39, 39, 39);
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-color: rgb(100, 100, 100);
+   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;*/
     margin: 4px;
     padding: 20px;  
 }
