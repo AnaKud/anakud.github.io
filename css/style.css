@@ -290,8 +290,8 @@ body._touch .menu_list > li._active .menu_arrow {
 
 .btn_container {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    
 }
 
 .hello{
